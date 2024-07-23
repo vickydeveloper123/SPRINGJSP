@@ -1,0 +1,17 @@
+package com.intelsoft.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class BookController {
+	
+	public ModelAndView getMapping() {
+		
+		ModelAndView view =new ModelAndView();
+		
+		view.addAllObjects(null);
+		return view;
+	}
+
+}

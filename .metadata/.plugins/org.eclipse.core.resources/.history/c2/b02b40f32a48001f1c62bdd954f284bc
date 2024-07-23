@@ -1,0 +1,13 @@
+package com.intelsoft;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JspmvcApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JspmvcApplication.class, args);
+	}
+
+}

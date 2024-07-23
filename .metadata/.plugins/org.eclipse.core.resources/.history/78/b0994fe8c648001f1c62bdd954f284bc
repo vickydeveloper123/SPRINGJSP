@@ -1,0 +1,11 @@
+package com.intelsoft.service;
+
+import com.intelsoft.repository.BookRepo;
+
+public class BookService {
+	
+	private BookRepo bookrep;
+	
+	
+
+}

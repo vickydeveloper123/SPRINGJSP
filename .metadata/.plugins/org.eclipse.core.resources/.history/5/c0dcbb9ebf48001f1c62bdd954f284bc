@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ page import="java.util.List" %>
+<%@ page import="com.intelsoft.entity.User"%>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1"
+    <title>Books List</title>
+    <style>
+        table{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body 
+
+
+<font color='green'>${msg}</font>
+<form: form  action="user" method="POST" modelAttribute="user">
+       Name:<form: input path="uname"/><br></br>
+	   Email:<form: input path="email"/><br></br>
+	   phno:<form: input path="phno"/><br></br>
+
+
+        <input type="submit" value="Submit">
+    </form:form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

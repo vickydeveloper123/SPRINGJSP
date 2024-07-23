@@ -1,0 +1,15 @@
+package com.intelsoft.usercontroller;
+
+import org.springframework.ui.Model;
+
+import com.intelsoft.entity.User;
+
+public class UserController {
+	
+	public String loadform(Model model) {
+		User user=new User();
+		return "userview";
+		
+	}
+
+}

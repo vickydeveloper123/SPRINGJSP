@@ -1,0 +1,5 @@
+package com.intelsoft.entity;
+
+public class Book {
+
+}

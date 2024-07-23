@@ -1,0 +1,18 @@
+package com.intelsoft.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class BookController {
+	@Autowired
+	public ModelAndView getMapping() {
+		
+		ModelAndView view =new ModelAndView();
+		
+		view.addAllObjects(null);
+		return view;
+	}
+
+}

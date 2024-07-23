@@ -1,0 +1,18 @@
+package com.intelsoft.entity;
+
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Book {
+	
+	@Id
+	private Integer bookId;
+	private String bookName;
+	private Double bookPrice;
+	
+	
+
+}

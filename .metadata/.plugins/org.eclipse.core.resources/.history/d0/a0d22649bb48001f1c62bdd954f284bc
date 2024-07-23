@@ -1,0 +1,18 @@
+package com.intelsoft.entity;
+
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User {
+
+	@Id
+	private String uname;
+	private String uemail;
+	private Long phno;
+	
+}
